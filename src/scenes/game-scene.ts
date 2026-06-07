@@ -26,11 +26,11 @@ export class GameScene extends Phaser.Scene {
     enemies!: Phaser.Physics.Arcade.Group;
 
     preload() {
-        this.load.image('background', 'public/assets/background.png');
-        this.load.image('player', 'public/assets/player.png');
-        this.load.image('enemy', 'public/assets/enemy.png');
-        this.load.image('aim', 'public/assets/aim.png');
-        this.load.image('player_bullet', 'public/assets/player_bullet.png');
+        this.load.image('background', '/assets/background.png');
+        this.load.image('player', '/assets/player.png');
+        this.load.image('enemy', '/assets/enemy.png');
+        this.load.image('aim', '/assets/aim.png');
+        this.load.image('player_bullet', '/assets/player_bullet.png');
     }
 
     create() {
